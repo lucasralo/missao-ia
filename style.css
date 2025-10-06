@@ -14,7 +14,7 @@ body{
     color:var(--cor-texto);
     font-family: var(--font-texto);
     display: flex;
-    justif-cocontent: center;
+    justif-content: center;
     align-itens: center;
     min-heigth: 100vh;
 }
