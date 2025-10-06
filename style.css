@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
-    --fonte-titulo:'Oswald wgth'
-    --fonte-titulo: 'Fira Sans'
+    --fonte-titulo:'Oswald wgth';
+    --fonte-texto: 'Fira Sans';
+    --cor-principal: #282A36;
+    --cor-secundaria:#F8F8F2;
+    --cor-destaque:#50FA7B;
+    --cor-texto:#F1FA8C;
+}
+body{
+    background-color:var(--cor-principal);
+    color:var(--cor-texto);
+    font-family: var(--font-texto);
+    display: flex;
+    justif-cocontent: center;
+    align-itens: center;
+    min-heigth: 100vh;
 }
