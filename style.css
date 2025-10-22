@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root{
     --fonte-titulo:'Oswald wgth';
     --fonte-texto: 'Fira Sans';
-    --cor-principal: #222a54ff;
-    --cor-secundaria:#F8F8F2;
-    --cor-destaque:#50FA7B;
-    --cor-texto:#0a0a0a;
+    --cor-principal: #222a54ff; 
+    --cor-secundaria:#F8F8F2; 
+    --cor-destaque:#50FA7B;  
+    --cor-texto: #0a0a0a; 
 }
 body{
-    background-color:var(--cor-principal);
-    color:var(--cor-texto);
-    font-family: var(--font-texto);
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
     display: flex;
-    justif-content: center;
-    align-itens: center;
-    min-heigth: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .caixa-principal{
     background-color: var(--cor-principal);
@@ -37,16 +36,16 @@ button{
     border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color o.3s;
+    transition: background-color 0.3s;
 }
-button:hover{
+button :hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
 .caixa-resultados{
     display: none;
 }
-.caixa-resultados{
+.caixa-resultados.mostrar{
     display: block;
 }
 .caixa-alternativas{
