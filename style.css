@@ -5,8 +5,8 @@
     --fonte-texto: 'Fira Sans';
     --cor-principal: #222a54ff; 
     --cor-secundaria:#F8F8F2; 
-    --cor-destaque:#51d873;  
-    --cor-texto: #79e668; 
+    --cor-destaque:#000000;  
+    --cor-texto: #34f416; 
 }
 body{
     background-color: var(--cor-principal);
