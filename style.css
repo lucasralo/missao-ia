@@ -4,8 +4,8 @@
 :root{
     --fonte-titulo:'Oswald wgth';
     --fonte-texto: 'Fira Sans';
-    --cor-principal: rgb(38, 2, 55); 
-    --cor-secundaria:#f5f5f5; 
+    --cor-principal: rgb(98, 6, 141); 
+    --cor-secundaria:#7f7d7d; 
     --cor-destaque:#ff6b35 ;  
     --cor-texto: #00d4ff; 
 }
