@@ -91,7 +91,7 @@ export const perguntas = [
                     "A tática mais humana e eficaz a longo prazo é a prevenção. Ao oferecer dignidade, oportunidade e um futuro promissor, o Estado retira a base de recrutamento do crime organizado e investe na formação de cidadãos produtivos."
                 ],
                 "proxima": 4
-            }
+            },
         ]
-    }
-]
+    },
+];
