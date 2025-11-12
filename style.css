@@ -7,7 +7,7 @@
     --cor-principal: rgb(98, 6, 141); 
     --cor-secundaria:#EDE7F6; 
     --cor-destaque:#FFB300 ;  
-    --cor-texto: #212121; 
+    --cor-texto: #000000; 
 }
 body{
     background-color: var(--cor-principal);
